@@ -7,7 +7,7 @@ from gtts import gTTS
 from PIL import Image
 import base64
 
-st.title("Conversión de Texto a Audio para personas sordas")
+st.title("Lector de texto magico. Puede leer todo")
 image = Image.open('gato_raton.jpg')
 st.image(image, width=350)
 with st.sidebar:
